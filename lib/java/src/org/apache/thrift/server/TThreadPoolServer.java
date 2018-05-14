@@ -154,7 +154,6 @@ public class TThreadPoolServer extends TServer {
       eventHandler_.preServe();
     }
 
-    stopped_ = false;
     setServing(true);
     int failureCount = 0;
     while (!stopped_) {
