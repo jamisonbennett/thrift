@@ -161,7 +161,6 @@ public class TThreadPoolServer extends TServer {
     if (eventHandler_ != null) {
       eventHandler_.preServe();
     }
-    stopped_ = false;
     setServing(true);
     
     return true;
